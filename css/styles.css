@@ -136,6 +136,20 @@ h2{
     border-radius: 0 0 0 5px;
 }
 
+.position-fixed{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;    
+    border: none;
+    opacity: 100%;
+} 
+
+.position-fixed img{
+    width: 70px;
+    border: none;
+    opacity: 100%;
+}
+
 ul.navega li{
     display: inline;
 }
@@ -228,15 +242,6 @@ img.muy-pequena{
     height: 50px;
 }
 
-.position-fixed img{
-    width: 70px;
-}
-
-.position-fixed{
-    position: fixed;
-    bottom: 15px;
-    right: 20px;
-} 
 
 .position-relative{
     margin-left: 40px;
