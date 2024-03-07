@@ -190,25 +190,6 @@ header nav ul li a{
     align-items: center;
 }
 
-.menu ul li a{
-    color: fuchsia;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.menu ul li a:hover{
-    color: #ff00ff92;
-    text-decoration: underline;
-}
-
-.menu-icon{
-    background-image: url(./../img/hamburger-menu.svg);
-}
-
-.menu-button:focus{
-    box-shadow: none;
-}
-
 .grid-galeria{
     display: grid;
     grid-template-columns: 1fr;
@@ -255,6 +236,69 @@ img.muy-pequena{
 
 .container text-center{
     column-span: 15px;
+}
+
+#contacto-section {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    opacity: 70%;
+    background-color: #928d8dc0;
+    color: #000000;
+    border-radius: 15px;
+}
+
+#contacto-section form {
+    margin-top: 0px;
+    width: 100%;
+}
+
+#contacto-section label {
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#contacto-section input,
+#contacto-section textarea{
+    display: inline-block;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#contacto-section #mensaje {
+    width: 100%;
+    height: 180px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+#contacto-section input[type="submit"] {
+    width: 50%;
+    margin-left: 110px;
+    background-color: #0288d1;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: border color 0.3s ease;
+}
+#contacto-section input[type="submit"]:hover {
+    background-color: #0288d1;
+    border-color: red;
+    border-width: 5px;
+    text-shadow: 5px;
 }
 
 @media screen and (min-width: 768px){
