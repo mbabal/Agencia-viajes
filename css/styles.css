@@ -252,8 +252,8 @@ img.muy-pequena{
     max-width: 500px;
     margin: 20px auto;
     padding: 15px;
-    opacity: 70%;
-    background-color: #928d8dc0;
+    opacity: 100%;
+    background-color:#b3d3e4;
     color: #000000;
     border-radius: 15px;
 }
