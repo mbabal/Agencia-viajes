@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap);
 
-
 *{
     margin: 0;
     padding: 0;
@@ -233,7 +232,6 @@ img.muy-pequena{
     height: 50px;
 }
 
-
 .position-relative{
     margin-left: 40px;
     margin-bottom: 40px;
@@ -257,12 +255,10 @@ img.muy-pequena{
     color: #000000;
     border-radius: 15px;
 }
-
 #contacto-section form {
     margin-top: 0px;
     width: 100%;
 }
-
 #contacto-section label {
     display: inline-block;
     width: 100%;
