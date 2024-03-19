@@ -610,6 +610,12 @@ img.muy-pequena{
     opacity: 0;
     transition: opacity 1.5s;
 }
+
+.texto-1:hover{
+    opacity: 1;
+    transition: opacity 1.5s;
+    cursor: pointer;
+}
 .img-2{
     position: relative;
 }
