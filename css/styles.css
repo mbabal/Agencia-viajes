@@ -43,18 +43,16 @@ header nav ul li a:hover{
 
 ul.navega li{
     display: inline;
+
 }
 .menu{
     flex-grow: 0;
 }
 
 .menu .menu-ul{
-    column-gap: 10px;
+    column-gap: 20px;
     align-items: center;
-}
-
-.menu-icon{
-    background-image: url(./../img/hamburger-menu.svg);
+    flex-direction: column;
 }
 
 
@@ -174,6 +172,8 @@ img.muy-pequena{
     padding: 5px 20px 0px 0px;
     border-radius: 5px 5px 5px 5px;
 }
+
+
 
 /*Destinos*/
 
@@ -560,10 +560,15 @@ img.muy-pequena{
         justify-content: space-between;
         padding: 10px;
         align-items: center;
-    }   
+    }  
+    header nav ul{
+        list-style: none;
+        display: inline;
+    }
     header nav ul li a{
         color: rgb(248, 245, 245);
     }
+
 
     .grid-galeria{
         grid-template-columns: repeat(2, 1fr);
